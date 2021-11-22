@@ -28,4 +28,3 @@ sns.countplot(x=df['year'], data=df, ax=ax)
 fig, ax = plt.subplots(figsize=(12,6))
 sns.countplot(x=df['month'], data=df, ax=ax)
 persons_killed_by_year = df.groupby("year")["NUMBER OF PERSONS KILLED"].sum()
-persons_killed_by_year
