@@ -5,7 +5,7 @@ import numpy as np
 import warnings
 warnings.filterwarnings('ignore')
 
-def main():
+def data_cleaning():
     #importing our dataset
     df = pd.read_csv(".././Dataset/Motor_Vehicle_Collisions_-_Crashes.csv")
     
@@ -32,4 +32,4 @@ def main():
 
     #Saving our cleaned data in a csv file
     df.to_csv(".././Dataset/cleaned_data.csv")
-main()
+data_cleaning()
