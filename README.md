@@ -10,7 +10,7 @@ NYC Vehicle Collision Data Science Project
 ### Repository Structure
 - `Dataset`
   - `Motor_Vehicle_Collisions_-_Crashes.cvs`: Raw NYC collisions data from the NYC Open data.
-  - `cleaned_data.csv`: The cleaned dataset for modeling.
+  - `cleaned_data.csv`: Cleaned dataset for modeling.
 
 - `Jupyter Notebook` 
   - `data_cleaning.ipynb`: Includes code for data cleaning and pre-processing. It also contains the data dictionary. 
