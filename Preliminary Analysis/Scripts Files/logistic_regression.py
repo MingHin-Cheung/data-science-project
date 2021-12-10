@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 def model():
-    df = pd.read_csv(".././Dataset/cleaned_data.csv", index_col=0)
+    df = pd.read_csv("./../../Dataset/cleaned_data.csv", index_col=0)
     
     #Adding a new column for years
     df["CRASH DATE"] = pd.to_datetime(df["CRASH DATE"])

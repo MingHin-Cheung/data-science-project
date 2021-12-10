@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 def EDA():
-    df = pd.read_csv(".././Dataset/cleaned_data.csv", index_col=0)
+    df = pd.read_csv("./../../Dataset/cleaned_data.csv", index_col=0)
     #Checking categorical features in our dataset.
 
     print(df.head())
